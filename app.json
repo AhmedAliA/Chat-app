@@ -4,11 +4,11 @@
     "slug": "CONN19",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chat_icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#f0bd6c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
